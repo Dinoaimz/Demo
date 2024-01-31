@@ -6288,13 +6288,7 @@ Tabs.Misc:AddButton({
 })
 --------------------------------------------------------------------------------------------------------------------------------------------
 --Fake Race V4
-Tabs.Race2:Addparagraph({
-    Title = "Fake Race V4",
-    content = ""
-})
-
-
-Tabs.Race2:AddButton({
+Tabs.Misc:AddButton({
     Title = "Mink Fake Transform",
     Description = "",
    callback = function()
@@ -6325,7 +6319,7 @@ end
 })
 
 
-Tabs.Race2:AddButton({
+Tabs.Misc:AddButton({
 	Title = "Fishman Fake Transform",
 	Description = "",
 	Callback = function()
@@ -6355,7 +6349,7 @@ Tabs.Race2:AddButton({
 
 
 
-Tabs.Race2:AddButton({
+Tabs.Misc:AddButton({
 	Title = "Skypeian Fake Transform",
 	Description = "",
 	Callback = function()
@@ -6385,7 +6379,7 @@ Tabs.Race2:AddButton({
 
 
 
-Tabs.Race2:AddButton({
+Tabs.Misc:AddButton({
 	Title = "Ghoul Fake Transform",
 	Description = "",
 	Callback = function()
@@ -6413,7 +6407,7 @@ Tabs.Race2:AddButton({
 })
 
 
-Tabs.Race2:AddButton({
+Tabs.Misc:AddButton({
 	Title = "Cyborg Fake Transform",
 	Description = "",
 	Callback = function()
@@ -6442,7 +6436,7 @@ Tabs.Race2:AddButton({
 
 
 
-    Tabs.Race2:AddButton({
+    Tabs.Misc:AddButton({
         Title = "Human Fake Transform",
         Description = "",
         Callback = function()
@@ -6470,7 +6464,7 @@ Tabs.Race2:AddButton({
         })
 
 
-        Tabs.Race2:AddButton({
+        Tabs.Misc:AddButton({
             Title = "Fake Mink Dash Animation",
             Description = "",
             Callback = function()
@@ -6500,4 +6494,5 @@ Tabs.Race2:AddButton({
                end
 
             })
+
 
